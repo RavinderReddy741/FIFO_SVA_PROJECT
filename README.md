@@ -1,16 +1,17 @@
+This Verilog code defines a simple FIFO (First-In-First-Out) module named `assert_fifo` and a testbench module named `tb`. The code includes assertions to check various properties of the FIFO behavior during different scenarios.
 
 Here is a summary of the key components and functionalities:
 
-1. **FIFO Module (`assert_fifo`):**
+1. **FIFO Module (assert_fifo):**
    - Inputs:
-     - `clk`: Clock signal.
-     - `rst`: Reset signal.
-     - `wr`: Write enable signal.
-     - `rd`: Read enable signal.
-     - `din`: Data input.
-     - `dout`: Data output.
-     - `empty`: Empty flag.
-     - `full`: Full flag.
+     - clk: Clock signal.
+     - rst: Reset signal.
+     - wr: Write enable signal.
+     - rd: Read enable signal.
+     - din: Data input.
+     - dout: Data output.
+     - empty: Empty flag.
+     - full: Full flag.
 
    - Assertions:
      - **(1) Reset Status:**
@@ -34,20 +35,20 @@ Here is a summary of the key components and functionalities:
      - **(7) Data Matching:**
        - Verifies that the data read from the FIFO matches the data previously written.
 
-2. **Testbench Module (`tb`):**
+2. **Testbench Module (tb):**
    - Inputs and Outputs:
-     - `clk`: Clock signal.
-     - `rst`: Reset signal.
-     - `wr`: Write enable signal.
-     - `rd`: Read enable signal.
-     - `din`: Data input.
-     - `dout`: Data output.
-     - `empty`: Empty flag.
-     - `full`: Full flag.
+     - clk: Clock signal.
+     - rst: Reset signal.
+     - wr: Write enable signal.
+     - rd: Read enable signal.
+     - din: Data input.
+     - dout: Data output.
+     - empty: Empty flag.
+     - full: Full flag.
 
    - Tasks:
-     - `write()`: Simulates writing to the FIFO.
-     - `read()`: Simulates reading from the FIFO.
+     - write(): Simulates writing to the FIFO.
+     - read(): Simulates reading from the FIFO.
 
    - Initial Block:
      - Initializes signals and triggers certain events.
@@ -61,4 +62,4 @@ Here is a summary of the key components and functionalities:
      - Creates a VCD file for waveform dumping.
      - Finishes simulation after a certain duration.
 
-Overall, this  code provides a testbench environment to verify the functionality and properties of the FIFO module through the use of assertions and simulation events.
+Overall, this Verilog code provides a testbench environment to verify the functionality and properties of the FIFO module through the use of assertions and simulation events.
