@@ -68,8 +68,8 @@ Here is a summary of the key components and functionalities:
      - Finishes simulation after a certain duration.
 
 Overall, this Verilog code provides a testbench environment to verify the functionality and properties of the FIFO module through the use of assertions and simulation events.
+EDA PLAYGROUND Link:https://edaplayground.com/x/DaEh
 
-EDA PLAYGROUND Link: https://edaplayground.com/x/PJCR
 
 TESTBENCH ARCHITECTURE:
 
@@ -193,3 +193,5 @@ TESTBENCH ARCHITECTURE:
   - Displays the error count from the scoreboard.
 
 This testbench follows a modular and structured approach, making it clear and maintainable for verifying the functionality of the FIFO module.
+
+EDA PLAYGROUND Link: https://edaplayground.com/x/PJCR
