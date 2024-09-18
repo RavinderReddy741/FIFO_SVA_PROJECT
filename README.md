@@ -39,8 +39,11 @@ Here is a summary of the key components and functionalities:
 
      - **(7) Data Matching:**
        - Verifies that the data read from the FIFO matches the data previously written.
+      
+EDA PLAYGROUND LINK FOR ONLY ASSERTION : https://edaplayground.com/x/DaEh
 
 2. **Testbench Module (tb):**
+
    - Inputs and Outputs:
      - clk: Clock signal.
      - rst: Reset signal.
@@ -67,10 +70,7 @@ Here is a summary of the key components and functionalities:
      - Creates a VCD file for waveform dumping.
      - Finishes simulation after a certain duration.
 
-Overall, this Verilog code provides a testbench environment to verify the functionality and properties of the FIFO module through the use of assertions and simulation events.
-
-
-EDA PLAYGROUND Link:https://edaplayground.com/x/DaEh
+Overall, this  code provides a testbench environment to verify the functionality and properties of the FIFO module through the use of assertions and simulation events.
 
 
 TESTBENCH ARCHITECTURE:
@@ -195,8 +195,6 @@ TESTBENCH ARCHITECTURE:
   - Displays the error count from the scoreboard.
 
 This testbench follows a modular and structured approach, making it clear and maintainable for verifying the functionality of the FIFO module.
+EDA PLAYGROUNG LINK FOR SV TESTBENCH : https://www.edaplayground.com/x/T7Nu
 
-EDA PLAYGROUND Link: https://edaplayground.com/x/Qvap
-
-
-EDA PLAYGROUND LINK : https://www.edaplayground.com/x/wRMg
+EDA PLAYGROUND LINK FOR SV TESTBENCH WITH INCLUDING ASSERTIONS IN IT : https://www.edaplayground.com/x/wRMg
