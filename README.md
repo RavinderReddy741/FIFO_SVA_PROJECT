@@ -197,3 +197,6 @@ TESTBENCH ARCHITECTURE:
 This testbench follows a modular and structured approach, making it clear and maintainable for verifying the functionality of the FIFO module.
 
 EDA PLAYGROUND Link: https://edaplayground.com/x/Qvap
+
+
+EDA PLAYGROUND LINK : https://www.edaplayground.com/x/wRMg
