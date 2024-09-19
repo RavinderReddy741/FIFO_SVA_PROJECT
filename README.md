@@ -198,3 +198,5 @@ This testbench follows a modular and structured approach, making it clear and ma
 EDA PLAYGROUNG LINK FOR SV TESTBENCH : https://www.edaplayground.com/x/T7Nu
 
 EDA PLAYGROUND LINK FOR SV TESTBENCH WITH INCLUDING ASSERTIONS IN IT : https://www.edaplayground.com/x/wRMg
+
+EDA PLAGROUND LINK FOR COVERAGE VERIFICATION: https://www.edaplayground.com/x/sFAV
