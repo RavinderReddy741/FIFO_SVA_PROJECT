@@ -10,7 +10,7 @@ coverage, and scoreboard-based result checking.
 | Category | Details |
 |---|---|
 | Language | SystemVerilog |
-| Methodology | UVM + Assertion-Based Verification (ABV) |
+| Methodology |  Assertion-Based Verification (ABV) |
 | Simulation | Synopsys VCS / EDA Playground |
 | Protocol | FIFO (First-In-First-Out) |
 | Coverage | Functional Coverage + Code Coverage |
@@ -42,8 +42,7 @@ tb (top)
 | Version | Description | Link |
 |---|---|---|
 | SVA Only | Assertions-only testbench | [Run →](https://edaplayground.com/x/DaEh) |
-| SV Testbench | Full UVM testbench | [Run →](https://www.edaplayground.com/x/T7Nu) |
-| SVA + Testbench | UVM testbench with assertions integrated | [Run →](https://www.edaplayground.com/x/wRMg) |
+| SVA + Testbench | testbench with assertions integrated | [Run →](https://www.edaplayground.com/x/wRMg) |
 | Coverage | Functional coverage verification | [Run →](https://www.edaplayground.com/x/sFAV) |
 
 ---
@@ -59,7 +58,7 @@ tb (top)
 ## Folder Structure
 FIFO_SVA_PROJECT/
 ├── rtl/              # FIFO RTL design (assert_fifo module)
-├── tb/               # UVM testbench components
+├── tb/               # testbench components
 │   ├── transaction.sv
 │   ├── generator.sv
 │   ├── driver.sv
